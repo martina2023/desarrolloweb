@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*index*/ 
+body{
+    margin: 2%;
+    padding: 2%;
+    background-color: blanchedalmond;
+}
+
+h1{
+    color: #942b2b;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-bottom: 3vh;
+}
+#texto{
+    text-align: center;font-family: 'Montserrat Alternates', sans-serif;
+    padding: 2vh;
+}
+div img{
+    border-radius: 8%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2vh;
+
+}
+
+nav ul li{
+    list-style-type:none;
+    background-color:  rgb(230, 177, 177);
+    border-radius: 5vh;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 1%;
+    text-align: center;
+}
+
+h4{
+    color: #942b2b;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 4vh;
+}
+h3{
+    font-size: 170%;
+    }
+
+ul.ingredientes {
+    list-style: circle;font-family: 'Montserrat Alternates', sans-serif;
+}
+
+ol.procedimiento {
+    list-style-type: decimal;font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#copyright{
+    color: #942b2b;
+}
+footer{
+    background-color: #808575;
+    text-align: center;
+    border-radius: 10%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 1vh;
+    margin-top: 6vh;
+}
+/*páginas*/
+.recetas{
+    margin: 2%;
+    padding: 2%;
+    background-image: url(./food.png);
+    font-family: 'Montserrat Alternates', sans-serif
+}
+#home{
+    list-style-type:none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: inline;
+}
+#comidas{
+    color: #942b2b;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 4vh;
+}
+
+footer p{
+    color: #942b2b;   
+}
+.imgAside{
+    width: 65%;
+    margin: 6%;
+}
+aside{
+    height: 40%;
+    width: 80%;
+    padding: 10%;
+}
+
+/*flex Box*/
+
+.ingredientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.procedimiento{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/*grids*/
+.recetas-flex-row{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+
+}
+.aside{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+div img{
+    display: flex;
+    justify-content: center;
+}
+
+/*responsive*/
+/*smarphone*/
+@media (min-width: 320px) and (max-width:430px) {
+.aside{
+    display: grid;
+    grid-template-columns: 100%;
+}
+}
+/*tablet*/
+@media (min-width: 480px) and (max-width:1023px) {
+.aside{
+    display: grid;
+    grid-template-columns: 100%;
+}
+}
+/*gradientes*/
+.linearGradient{
+    background-color: linear-gradient( orange, yellow, red) ;
+}
+
