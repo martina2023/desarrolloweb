@@ -145,4 +145,12 @@ div img{
 .linearGradient{
     background-color: linear-gradient( orange, yellow, red) ;
 }
+/*trasnformaciones*/
+#divImg {
+    transform: rotate(360deg);
+}
+#divImg {
+    transform: translate(10px, 20px);
+}
+
 
